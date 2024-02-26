@@ -23,7 +23,7 @@ const contact = () => {
         },
       );
   };
-  
+
   return (
     <section id='contact'>
       <h5>Get In Touch</h5>
@@ -31,22 +31,22 @@ const contact = () => {
       <div className='container contact__container'>
         <div className="contact__options">
           <article className='contact__option'>
-            <MdOutlineMailOutline  className='contact__option-icon'/>
-            <h4>Email</h4>
+            <MdOutlineMailOutline className='contact__option-icon' />
+            <h4>E-mail</h4>
             <h5>abdalzobair27@gmail.com</h5>
-            <a href="mailto:abdalzobair27@gmail.com" target='_blank'>Send a message</a>
+            <h4>Send a message</h4>
           </article>
           <article className='contact__option'>
-            <BsMessenger className='contact__option-icon'/>
+            <BsMessenger className='contact__option-icon' />
             <h4>Messenger</h4>
             <h5>Abdullah Al Zobair</h5>
-            <a href="https://www.messenger.com/t/100091406573866" target='_blank'>Send a message</a>
+            <h4>Send a message</h4>
           </article>
           <article className='contact__option'>
             <BsWhatsapp className='contact__option-icon' />
             <h4>Whatsapp</h4>
             <h5>01855864435</h5>
-            <a href="https://api.whatsapp.com/send?phone=+88001855864435" target='_blank'>Send a message</a>
+            <h4>Send a message</h4>
           </article>
         </div>
         <form ref={form} onSubmit={sendEmail}>
